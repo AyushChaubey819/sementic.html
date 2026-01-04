@@ -1,0 +1,98 @@
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f7f7f7;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px 20px;
+}
+
+header .container {
+    display: flex;                 /* Flexbox layout */
+    justify-content: space-between; /* Logo left, nav right */
+    align-items: center;           /* Vertically center */
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 24px;
+    color: white; /* Make sure logo is visible */
+}
+
+header nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    color: #ffcc00;
+}
+
+/* Sections */
+.section {
+    
+    padding: 40px;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+/* Lists */
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+ul li {
+    margin: 8px 0;
+}
+
+/* Buttons (Hire Me + Send Message) */
+.section button {
+    padding: 10px 25px;
+    background-color: #007bff;  /* Bright Blue */
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;         /* Rounded corners */
+    transition: background-color 0.3s;
+}
+
+.section button:hover {
+    background-color: #0056b3;  /* Darker blue on hover */
+}
+
+/* Form */
+form input,
+form textarea {
+    width: 30%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    justify-self: center;
+}
+footer p {
+    margin: 0;
+}
